@@ -33,12 +33,12 @@ export default function Home() {
           <h2 className='font-semibold'>Descarga mi CV</h2>
         </div>
 
-        <h2 id='projectsTitle' className='text-dark text-3xl font-semibold pt-6'>Proyectos</h2>
-        <ul className='flex md:px-5 text-dark'>
-          <li className='mx-2 text-lg py-2 underline'>SunSpotCalc (Web&UI)</li>
-          <li className='mx-2 text-lg py-2 underline'>Dani's portfolio (Web&UI)</li>
-          <li className='mx-2 text-lg py-2 underline'>Enawa (UI)</li>
-          <li className='mx-2 text-lg py-2 underline'>Centi (UI)</li>
+        <h2 id='projectsTitle' className='text-dark text-2xl md:text-3xl font-semibold pt-1 md:pt-6'>Proyectos</h2>
+        <ul className='flex flex-col md:flex-row md:px-5 text-dark pb-4'>
+          <li className='mx-2 py-1 text-xs md:py-2 underline'>SunSpotCalc (Web&UI)</li>
+          <li className='mx-2 py-1 text-xs md:py-2 underline'>Dani's portfolio (Web&UI)</li>
+          <li className='mx-2 py-1 text-xs md:py-2 underline'>Enawa (UI)</li>
+          <li className='mx-2 py-1 text-xs md:py-2 underline'>Centi (UI)</li>
         </ul>
       </div>
       

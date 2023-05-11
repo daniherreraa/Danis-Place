@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -14,7 +14,6 @@ export default function Home() {
           </ul>
         </div>
       </nav>
-
       {/* Presentation container that have the names on it and the abilities */}
       <div id="presentationContainer" className="w-screen h-[94.5%] flex md:h-5/6 flex-col px-2 justify-end md:justify-center md:px-40 md:py-10">
         <div id="namesContainer">
@@ -35,7 +34,7 @@ export default function Home() {
 
         <h2 id='projectsTitle' className='text-dark text-2xl md:text-3xl font-semibold pt-1 md:pt-6'>Proyectos</h2>
         <ul className='flex flex-col md:flex-row md:px-5 text-dark pb-4'>
-          <li className='mx-2 py-1 text-xs md:py-2 underline'>SunSpotCalc (Web&UI)</li>
+          <li className='mx-2 py-1 text-xs md:py-2 underline'><Link href='/sunspotcalc'>SunSpotCalc (Web&UI)</Link></li>
           <li className='mx-2 py-1 text-xs md:py-2 underline'>Dani's portfolio (Web&UI)</li>
           <li className='mx-2 py-1 text-xs md:py-2 underline'>Enawa (UI)</li>
           <li className='mx-2 py-1 text-xs md:py-2 underline'>Centi (UI)</li>

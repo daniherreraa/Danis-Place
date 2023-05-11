@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.projectPage {
+  @apply bg-bright h-full w-full flex flex-col p-4 md:py-20 md:px-40
+}

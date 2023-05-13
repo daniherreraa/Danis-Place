@@ -1,19 +1,10 @@
 import Link from 'next/link'
+import MainNavBar from './Components/UI/MainNavbar'
 
 export default function Home() {
   return (
     <main className='bg-purple w-full h-screen'>
-      <nav className='w-screen flex columns-2 p-2 md:p-4'>
-        <div id="brandContainer" className='w-1/2'>
-          <h1 id="brand" className='text-bright'>¡Hola!</h1>
-        </div>
-        <div id="navMenuContainer" className='w-1/2 flex justify-end'>
-          <ul className='flex flex-row text-bright'>
-            <li className='px-3'>Proyectos</li>
-            <li className='px-3'>Contactame</li>
-          </ul>
-        </div>
-      </nav>
+      <MainNavBar/>
       {/* Presentation container that have the names on it and the abilities */}
       <div id="presentationContainer" className="w-screen h-[94.5%] flex md:h-5/6 flex-col px-2 justify-end md:justify-center md:px-40 md:py-10">
         <div id="namesContainer">
@@ -34,10 +25,10 @@ export default function Home() {
 
         <h2 id='projectsTitle' className='text-dark text-2xl md:text-3xl font-semibold pt-1 md:pt-6'>Proyectos</h2>
         <ul className='flex flex-col md:flex-row md:px-5 text-dark pb-4'>
-          <li className='mx-2 py-1 text-xs md:py-2 underline'><Link href='/sunspotcalc'>SunSpotCalc (Web&UI)</Link></li>
-          <li className='mx-2 py-1 text-xs md:py-2 underline'>Dani's portfolio (Web&UI)</li>
-          <li className='mx-2 py-1 text-xs md:py-2 underline'>Enawa (UI)</li>
-          <li className='mx-2 py-1 text-xs md:py-2 underline'>Centi (UI)</li>
+          <li className='mx-2 py-1 text-base md:py-2 underline'><Link href='/sunspotcalc'>SunSpotCalc (Web&UI)</Link></li>
+          <li className='mx-2 py-1 text-base md:py-2 underline'><Link href='/centiapp'>Centi (Web&UI)</Link></li>
+          <li className='mx-2 py-1 text-base md:py-2 underline'><Link href='/danisportfolio'>Dani's portfolio (Web&UI)</Link></li>
+          <li className='mx-2 py-1 text-base md:py-2 underline'>Enawa (Web&UI)</li>
         </ul>
       </div>
       

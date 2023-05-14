@@ -2,7 +2,7 @@
 const MainNavBar = () => {
 
   return (
-    <nav className='w-screen flex columns-2 p-2 md:p-4'>
+    <nav className='w-full flex columns-2 p-2 md:p-4'>
         <div id="brandContainer" className='w-1/2'>
           <h1 id="brand" className='text-bright'>¡Hola!</h1>
         </div>

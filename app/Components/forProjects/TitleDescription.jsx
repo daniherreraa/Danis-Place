@@ -28,7 +28,7 @@ const TitleDescription = (props) => {
         <h1 className='text-dark text-4xl md:text-7xl font-extrabold w-72'>
             {title}
         </h1>
-        <p className='text-dark text-base md:text-lg pt-4 md:mt-6 font-normal w-4/6'>
+        <p className='text-dark text-xs md:text-lg pt-4 md:mt-6 font-normal w-4/6'>
             {description}
         </p>
     </div>

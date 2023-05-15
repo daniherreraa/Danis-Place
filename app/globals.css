@@ -26,6 +26,32 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* Main page */
+
 .projectPage {
   @apply bg-bright h-full w-full flex flex-col p-4 md:py-20 md:px-40
 }
+
+.project-section {
+  @apply w-full h-full md:h-full bg-dark px-4 py-8 md:py-16 md:px-20 lg:px-40
+}
+
+.project-title {
+  @apply text-lightGray font-bold text-3xl md:text-4xl
+}
+
+.project-subtitle {
+  @apply text-lightGray font-bold text-3xl md:text-4xl
+}
+
+.ability-button {
+  @apply w-max h-max p-4 md:p-4 border-solid border-2 border-outline text-sm text-lightPurple rounded-full
+}
+
+::-webkit-scrollbar {
+  background-color: #1C1B1F;
+}
+::-webkit-scrollbar-thumb {
+  background: #C6BFFF;
+}
+

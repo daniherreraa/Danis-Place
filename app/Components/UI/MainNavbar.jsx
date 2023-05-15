@@ -8,8 +8,8 @@ const MainNavBar = () => {
         </div>
         <div id="navMenuContainer" className='w-1/2 flex justify-end'>
           <ul className='flex flex-row text-bright'>
-            <li className='px-3'>Proyectos</li>
-            <li className='px-3'>Contactame</li>
+            <li className='px-3'>proyectos</li>
+            <li className='px-3'>Habilidades</li>
           </ul>
         </div>
     </nav>

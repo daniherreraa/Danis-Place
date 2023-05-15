@@ -39,7 +39,7 @@ export default function Home() {
       {/* Abilities Section */}
       <div className="project-section">
         <h2 className="project-subtitle">Mis habilidades</h2>
-        <div className='flex flex-row gap-4 lg:gap-4 pt-8'>
+        <div className='flex flex-row gap-4 lg:gap-4 pt-8 flex-wrap'>
           <div className="ability-button">HTML</div>
           <div className="ability-button">CSS</div>
           <div className="ability-button">JS</div>
@@ -51,7 +51,7 @@ export default function Home() {
       {/* Idiomas */}
       <div className="project-section">
         <h2 className="project-subtitle">Idiomas</h2>
-        <div className='flex flex-row gap-4 lg:gap-4 pt-8'>
+        <div className='flex flex-row gap-4 lg:gap-4 pt-8 flex-wrap'>
           <div className="ability-button">Español - Nativo</div>
           <div className="ability-button">Ingles - B2</div>
         </div>

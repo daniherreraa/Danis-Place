@@ -45,7 +45,7 @@ body {
 }
 
 .ability-button {
-  @apply w-max h-max p-4 md:p-4 border-solid border-2 border-outline text-sm text-lightPurple rounded-full
+  @apply w-max h-max p-4 md:p-4 border-solid border-2 border-outline text-xs md:text-sm text-lightPurple rounded-full
 }
 
 ::-webkit-scrollbar {

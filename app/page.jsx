@@ -38,13 +38,14 @@ export default function Home() {
 
       {/* Abilities Section */}
       <div className="project-section">
-        <h2 className="project-subtitle">Mis habilidades</h2>
+        <h2 id="abilitiesTitle" className="project-subtitle">Mis habilidades</h2>
         <div className='flex flex-row gap-4 lg:gap-4 pt-8 flex-wrap'>
-          <div className="ability-button">HTML</div>
-          <div className="ability-button">CSS</div>
-          <div className="ability-button">JS</div>
-          <div className="ability-button">REACT</div>
-          <div className="ability-button">NEXTJS</div>
+          <div className="ability-button">Html</div>
+          <div className="ability-button">Css</div>
+          <div className="ability-button">Js</div>
+          <div className="ability-button">ReactJs</div>
+          <div className="ability-button">Next Js</div>
+          <div className="ability-button">Figma</div>
         </div>
       </div>
 

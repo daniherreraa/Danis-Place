@@ -9,30 +9,41 @@ const ProjectCard = (props) => {
     'Es justo lo que estas viendo... 😎',
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque officia, nihil quae, enim asperiores deserunt nemo eos nesciunt error ullam, odio accusantium distinctio voluptatibus quam!',
   ];
+  const cardLinksArray = [
+    'https://theskylabteam.github.io/sunspotcalc/#/',
+    'https://centi-app.vercel.app',
+    'https://danis-place.vercel.app',
+    '/',
+  ];
 
   let cardTitle = '';
   let cardDescription = '';
   let detailLink = '';
+  let cardLink = '';
 
   if (props.project == 'sunspotcalc') {
     cardTitle = cardTitlesArray[0];
     cardDescription = cardDescriptionsArray[0];
     detailLink = '/sunspotcalc';
+    cardLink = cardLinksArray[0];
 
   } if (props.project == 'centi') {
     cardTitle = cardTitlesArray[1];
     cardDescription = cardDescriptionsArray[1];
-    detailLink = '/centiapp'
+    detailLink = '/centiapp';
+    cardLink = cardLinksArray[1];
 
   } if (props.project == 'danisplace') {
     cardTitle = cardTitlesArray[2];
     cardDescription = cardDescriptionsArray[2];
+    detailLink = '/danisportfolio';
+    cardLink = cardLinksArray[2];
 
   } if (props.project == 'enawa') {
     cardTitle = cardTitlesArray[3];
     cardDescription = cardDescriptionsArray[3];
-
-  
+    detailLink = '/enawa';
+    cardLink = cardLinksArray[3];
   }
 
 
@@ -45,7 +56,7 @@ const ProjectCard = (props) => {
         <div className="mt-4 md:mt-8 lg:mt-4 xl:mt-8">
             <ul className="flex flex-row justify-end gap-4">
                 <li className="flex text-lightPurple text-sm xl:text-base lg:text-xs md:text-xs"><Link href={detailLink}>Más detalles</Link></li>
-                <li className="flex text-lightPurple text-sm xl:text-base lg:text-xs md:text-xs"><a href='https://theskylabteam.github.io/sunspotcalc/#/' target='_blank'>Visitar pagina</a></li>
+                <li className="flex text-lightPurple text-sm xl:text-base lg:text-xs md:text-xs"><a href={cardLink} target='_blank'>Visitar pagina</a></li>
             </ul>
         </div>
     </div>

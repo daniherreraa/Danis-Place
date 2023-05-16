@@ -1,3 +1,6 @@
+'use client'
+
+import { Link as ScrollLink } from 'react-scroll'
 
 const MainNavBar = () => {
 
@@ -8,8 +11,8 @@ const MainNavBar = () => {
         </div>
         <div id="navMenuContainer" className='w-1/2 flex justify-end'>
           <ul className='flex flex-row text-bright'>
-            <li className='px-3'>proyectos</li>
-            <li className='px-3'>Habilidades</li>
+            <li className='px-3'><a href='#presentationContainer'>Proyectos</a></li>
+            <li className='px-3'><a href='#abilitiesTitle'>Habilidades</a></li>
           </ul>
         </div>
     </nav>

@@ -9,4 +9,3 @@ This project was developed with Next Js. ⌨️
 
 The UI design was maded using Figma 🎨 (https://www.figma.com/file/KsMv954YHK0SuNZD4P0H3d/Portfolio?type=design&node-id=1%3A3&t=Y5R2uwSNIt5jlNuZ-1).
 
-

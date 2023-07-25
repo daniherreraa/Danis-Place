@@ -7,7 +7,7 @@ export default function Home() {
     <main className='bg-purple w-full h-full'>
       <MainNavBar/>
       {/* Presentation container that have the names on it and the abilities */}
-      <div id="presentationContainer" className="w-full h-[94.5%] flex md:h-[30rem] flex-col px-2 py-8 justify-end md:justify-center md:px-20 md:py-4 lg:px-40 lg:py-10">
+      <div id="presentationContainer" className="w-full h-[20rem] flex md:h-[30rem] flex-col px-4 py-8 justify-center md:justify-center md:px-20 md:py-4 lg:px-40 lg:py-10">
         <div id="namesContainer">
           <h1 className='font-extrabold text-dark text-5xl md:text-8xl'>
             DANIEL

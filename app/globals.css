@@ -29,7 +29,7 @@ body {
 /* Main page */
 
 .projectPage {
-  @apply bg-bright h-full w-full flex flex-col p-4 md:py-20 md:px-40
+  @apply bg-bright h-full w-full flex flex-col p-4 md:py-32 md:px-20
 }
 
 .project-section {
@@ -45,8 +45,9 @@ body {
 }
 
 .ability-button {
-  @apply w-max h-max p-4 md:p-4 border-solid border-2 border-outline text-xs md:text-sm text-lightPurple rounded-full
+  @apply w-max h-max p-4 md:p-4 border-solid border-2 border-outline text-xs md:text-sm text-lightPurple rounded-full hover:bg-outline hover:bg-opacity-50 hover:ease-in duration-150 select-none
 }
+
 
 ::-webkit-scrollbar {
   background-color: #1C1B1F;

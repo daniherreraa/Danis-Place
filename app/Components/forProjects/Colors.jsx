@@ -14,7 +14,7 @@ const Colors = (props) => {
         <h2 className="text-dark text-2xl font-extrabold py-8">
             Colores
         </h2>
-        <div className="flex flex-col md:flex-row gap-4 items-center justify-center">
+        <div className="grid md:grid-cols-3 gap-4 items-center justify-center">
             <div className="h-52 w-52 flex justify-center items-center" style={{backgroundColor: colorOne}}>
               <h3 className='text-dark font-bold opacity-40'>{colorOne}</h3>
             </div>

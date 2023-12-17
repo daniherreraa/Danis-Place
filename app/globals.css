@@ -32,8 +32,12 @@ body {
   @apply bg-bright h-full w-full flex flex-col p-4 md:py-32 md:px-20
 }
 
+#projectsSection {
+  @apply rounded-t-2xl;
+}
+
 .project-section {
-  @apply w-full h-full md:h-full bg-dark px-4 py-8 md:py-16 md:px-20 lg:px-40
+  @apply w-full md:w-[96%] h-full md:h-full bg-dark px-4 py-8 md:py-16 md:px-20 lg:px-40 
 }
 
 .project-title {

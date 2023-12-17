@@ -6,7 +6,8 @@ const ProjectCard = (props) => {
     "CentiApp (Web & UI)",
     `Dani's place (Web & UI)`,
     "Enawa (UI)",
-    "Iter (Web & UI), Solaris(Web & UI)"
+    "Iter (Web & UI)",
+    "Solaris(Web & UI)"
   ];
   const cardDescriptionsArray = [
     "SunSpotCalc es una app web que permite calcular la rotacion diferencial del sol usando como referencia las manchas que aparecen en las fotos del mismo.",
@@ -14,7 +15,7 @@ const ProjectCard = (props) => {
     "Es justo lo que estas viendo... 😎",
     "Enawa es una idea de negocio que se basa en una app para reportar problemas ambientales en las diferentes ciudades.",
     "Iter es una app que permite a los usuarios saber informacion sobre los planetas del sistema solar y el tiempo que se tardaria viajando a ellos.",
-    "Solaris es una app que permite a los usuarios saber el numero de reconecciones que ocurrieron en el sol, en un periodo de tiempo determinado."
+    "Solaris es una app que permite analizar la actividad solar del sol. Los usuarios pueden saber el numero de reconecciones que ocurrieron en el sol, en un periodo de tiempo determinado y mucho más."
   ];
   const cardLinksArray = [
     "https://theskylabteam.github.io/sunspotcalc/#/",
@@ -58,6 +59,7 @@ const ProjectCard = (props) => {
     cardDescription = cardDescriptionsArray[4];
     detailLink = "/iter";
     cardLink = cardLinksArray[3];
+
   } if (props.project == "solaris") {
     cardTitle = cardTitlesArray[5];
     cardDescription = cardDescriptionsArray[5];

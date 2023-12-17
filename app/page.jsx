@@ -27,7 +27,7 @@ export default function Home() {
         <div id="projectsContainer" className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 w-full gap-8 pt-8 lg:pt-16 md:pt-8 lg:gap-4 md:gap-4'>
           <ProjectCard project='sunspotcalc'/>
           <ProjectCard project='iter'/>
-          <ProjectCard project='danisplace'/>
+          <ProjectCard project='solaris'/>
           <ProjectCard project='enawa'/>
         </div>
       </div>

@@ -28,7 +28,7 @@ export default function Home() {
           <ProjectCard project='sunspotcalc'/>
           <ProjectCard project='iter'/>
           <ProjectCard project='solaris'/>
-          <ProjectCard project='enawa'/>
+          <ProjectCard project='harmonicos'/>
         </div>
       </div>
 

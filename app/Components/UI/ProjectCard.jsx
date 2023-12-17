@@ -7,7 +7,8 @@ const ProjectCard = (props) => {
     `Dani's place (Web & UI)`,
     "Enawa (UI)",
     "Iter (Web & UI)",
-    "Solaris(Web & UI)"
+    "Solaris(Web & UI)",
+    "Harmonicos App(Web & UI)"
   ];
   const cardDescriptionsArray = [
     "SunSpotCalc es una app web que permite calcular la rotacion diferencial del sol usando como referencia las manchas que aparecen en las fotos del mismo.",
@@ -15,14 +16,16 @@ const ProjectCard = (props) => {
     "Es justo lo que estas viendo... 😎",
     "Enawa es una idea de negocio que se basa en una app para reportar problemas ambientales en las diferentes ciudades.",
     "Iter es una app que permite a los usuarios saber informacion sobre los planetas del sistema solar y el tiempo que se tardaria viajando a ellos.",
-    "Solaris es una app que permite analizar la actividad solar del sol. Los usuarios pueden saber el numero de reconecciones que ocurrieron en el sol, en un periodo de tiempo determinado y mucho más."
+    "Solaris es una app que permite analizar la actividad solar del sol. Los usuarios pueden saber el numero de reconecciones que ocurrieron en el sol, en un periodo de tiempo determinado y mucho más.",
+    "Application with sound analyzers to compare the frequencies of the same note, but on different instruments, to see why we can notice differences between instruments"
   ];
   const cardLinksArray = [
     "https://theskylabteam.github.io/sunspotcalc/#/",
     "https://centi-app.vercel.app",
     "https://danis-place.vercel.app",
     "https://iter-five.vercel.app/",
-    "https://solariswebapp.netlify.app/"
+    "https://solariswebapp.netlify.app/",
+    "https://daniherreraa.github.io/harmonicosapp/",
   ];
 
   let cardTitle = "";
@@ -65,6 +68,12 @@ const ProjectCard = (props) => {
     cardDescription = cardDescriptionsArray[5];
     detailLink = "/solaris";
     cardLink = cardLinksArray[4];
+
+  } if(props.project == "harmonicos"){
+    cardTitle = cardTitlesArray[6];
+    cardDescription = cardDescriptionsArray[6];
+    detailLink = "/harmonicos";
+    cardLink = cardLinksArray[5];
   }
 
   return (

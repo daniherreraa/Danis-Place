@@ -17,7 +17,7 @@ export default function Home() {
         <ul id="abilitiesList" className="flex flex-row text-bright">
           <li className='text-[0.72rem] pr-4 md:text-lg'>Desarrollador Web</li>
           <li className='pr-4 text-[0.72rem] md:text-lg'>Diseñador UI/UX</li>
-          <li className='pr-4 text-[0.72rem] md:text-lg'>Investigador</li>
+          <li className='pr-4 text-[0.72rem] md:text-lg'>Analista de datos</li>
         </ul>
       </div>
       
